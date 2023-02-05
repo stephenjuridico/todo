@@ -40,6 +40,7 @@
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-transform-flow-strip-types": "^7.19.0",
     "@babel/preset-env": "^7.20.0",
     "@babel/preset-typescript": "^7.18.6",
     "@babel/runtime": "^7.20.0",
@@ -81,7 +82,13 @@
       "<rootDir>/jest-setup.js"
     ],
     "transformIgnorePatterns": [
-      "node_modules/(?!(jest-)?(@react-native|react-native)|react-(native|universal|navigation)-(.*)|@react-native-community/(.*)|@react-navigation/(.*)|bs-platform)"
+      "node_modules/(?!@react-native|react-native)",
+      "node_modules/(?!@react-native/polyfills/)",
+      "node_modules/(?!(jest-)?@react-navigation|@react-native-community|@react-navigation-redux-helpers)",
+      "node_modules/(?!(jest-runtime))",
+      "node_modules/(?!(uuid)/)",
+      "node_modules/",
+      "node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg)"
     ],
     "transform": {
       "^.+\\.jsx?$": "babel-jest"

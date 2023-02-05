@@ -18,5 +18,6 @@ module.exports = {
         ],
       },
     ],
+    '@babel/plugin-transform-flow-strip-types',
   ],
 };
