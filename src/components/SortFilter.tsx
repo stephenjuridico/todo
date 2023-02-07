@@ -39,6 +39,7 @@ const SortFilter = forwardRef((props, ref) => {
             <Text>Title</Text>
             <IconButton
               borderRadius={'full'}
+              testID="btnSortByName"
               onPress={() =>
                 setFilters({
                   ...filters,
@@ -56,6 +57,7 @@ const SortFilter = forwardRef((props, ref) => {
           <HStack alignItems={'center'} justifyContent={'space-between'}>
             <Text>Priority</Text>
             <IconButton
+              testID="btnSortByPriority"
               borderRadius={'full'}
               onPress={() =>
                 setFilters({

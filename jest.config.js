@@ -1,6 +1,6 @@
 // jest.config.js
 module.exports = {
-  moduleDirectories: ['node_modules'],
+  // moduleDirectories: ['node_modules'],
   preset: 'react-native',
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   transform: {

@@ -8,7 +8,11 @@ interface EmptyListProps {
 const EmptyList: React.FC<EmptyListProps> = ({message}) => {
   return (
     <Center minH={200} flex={1}>
-      <Text width={'80%'} textAlign={'center'} color={'gray.400'}>
+      <Text
+        testID="empty-list-message"
+        width={'80%'}
+        textAlign={'center'}
+        color={'gray.400'}>
         {message}
       </Text>
     </Center>

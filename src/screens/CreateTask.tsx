@@ -145,6 +145,7 @@ const CreateTask: FC = () => {
                     {StatusList.map(status => {
                       return (
                         <Select.Item
+                          key={status.value}
                           label={status.label}
                           value={status.value}
                         />

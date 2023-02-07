@@ -31,7 +31,7 @@ const TodoListItem: FC<TodoListItemProps> = ({item}) => {
 
   const trigger = (triggerProps: {_props: any; state: {open: boolean}}) => {
     return (
-      <Pressable accessibilityLabel="More options menu" {...triggerProps}>
+      <Pressable testID="btnTLIActions" {...triggerProps}>
         <Icon as={Feather} name="more-horizontal" />
       </Pressable>
     );
@@ -57,10 +57,12 @@ const TodoListItem: FC<TodoListItemProps> = ({item}) => {
           </VStack>
           <Menu placement="left top" trigger={trigger}>
             <Menu.Item
+              testID="btnTLIActionsEdit"
               onPress={() => navigation.navigate('CreateTask', {item})}>
               Edit
             </Menu.Item>
             <Menu.Item
+              testID="btnTLIActionsUpdate"
               onPress={() =>
                 updateStatus(
                   item.id,
@@ -76,6 +78,7 @@ const TodoListItem: FC<TodoListItemProps> = ({item}) => {
             </Menu.Item>
             {item.status !== Status.Archived && (
               <Menu.Item
+                testID="btnTLIActionsArchive"
                 onPress={() => {
                   Alert.alert(
                     'Archive Task',
