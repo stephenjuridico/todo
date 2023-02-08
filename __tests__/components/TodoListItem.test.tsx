@@ -96,7 +96,6 @@ describe('TodoListItem', () => {
     fireEvent.press(btnTLIActions);
     const btnTLIActionsArchive = screen.getByTestId('btnTLIActionsArchive');
     fireEvent.press(btnTLIActionsArchive);
-    screen.debug.shallow();
     // expect(
     //   screen.getByText('Are you sure you want to archive this task?'),
     // ).toBeTruthy();
