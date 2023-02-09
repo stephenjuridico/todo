@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    dataSet={{}}
+    style={
+      {
+        "alignContent": "center",
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      colorScheme="primary"
+      dataSet={{}}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "borderRadius": 9999,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingBottom": 10,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 10,
+        }
+      }
+      testID="btnGoBack"
+    >
+      <Text
+        allowFontScaling={false}
+        dataSet={{}}
+        selectable={false}
+        style={
+          [
+            {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            {
+              "color": "#e6b200",
+              "fontSize": 24,
+              "height": 24,
+              "lineHeight": 24,
+              "width": 24,
+            },
+            {
+              "fontFamily": "Feather",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

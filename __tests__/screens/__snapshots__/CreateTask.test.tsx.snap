@@ -1,0 +1,1063 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateTask renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    dataSet={{}}
+    style={
+      {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      dataSet={{}}
+      style={
+        {
+          "alignContent": "center",
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessibilityRole="button"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        colorScheme="primary"
+        dataSet={{}}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "borderRadius": 9999,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "paddingBottom": 10,
+            "paddingLeft": 10,
+            "paddingRight": 10,
+            "paddingTop": 10,
+          }
+        }
+        testID="btnGoBack"
+      >
+        <Text
+          allowFontScaling={false}
+          dataSet={{}}
+          selectable={false}
+          style={
+            [
+              {
+                "color": undefined,
+                "fontSize": 12,
+              },
+              {
+                "color": "#e6b200",
+                "fontSize": 24,
+                "height": 24,
+                "lineHeight": 24,
+                "width": 24,
+              },
+              {
+                "fontFamily": "Feather",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      dataSet={{}}
+      style={{}}
+    />
+    <Text
+      dataSet={{}}
+      style={
+        {
+          "backgroundColor": undefined,
+          "color": "#171717",
+          "fontFamily": undefined,
+          "fontSize": 24,
+          "fontStyle": "normal",
+          "fontWeight": "700",
+          "letterSpacing": 0,
+          "lineHeight": 30,
+          "marginTop": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "textDecorationLine": undefined,
+        }
+      }
+    >
+      New Task
+    </Text>
+    <View
+      dataSet={{}}
+      style={{}}
+    />
+    <RCTScrollView
+      contentContainerStyle={
+        [
+          {},
+          {
+            "dataSet": {},
+          },
+          {},
+        ]
+      }
+      dataSet={{}}
+      style={
+        {
+          "paddingLeft": 16,
+          "paddingRight": 16,
+        }
+      }
+    >
+      <View>
+        <View
+          dataSet={{}}
+          style={
+            {
+              "marginTop": 16,
+            }
+          }
+        >
+          <View
+            dataSet={{}}
+            isInvalid={false}
+            style={
+              {
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              dataSet={{}}
+              feedbackId="field-4-feedback"
+              hasFeedbackText={true}
+              hasHelpText={false}
+              helpTextId="field-4-helptext"
+              isDisabled={false}
+              isInvalid={false}
+              isReadOnly={false}
+              isRequired={false}
+              labelId="field-4-label"
+              nativeID="field-4-label"
+              setHasFeedbackText={[Function]}
+              setHasHelpText={[Function]}
+              style={
+                {
+                  "flexDirection": "row",
+                  "justifyContent": "flex-start",
+                  "marginBottom": 4,
+                  "marginTop": 4,
+                }
+              }
+            >
+              <Text
+                dataSet={{}}
+                style={
+                  {
+                    "backgroundColor": undefined,
+                    "color": "#737373",
+                    "fontFamily": undefined,
+                    "fontSize": 12,
+                    "fontStyle": "normal",
+                    "fontWeight": "500",
+                    "letterSpacing": 0,
+                    "lineHeight": 18,
+                    "textDecorationLine": undefined,
+                  }
+                }
+              >
+                Title
+              </Text>
+            </View>
+            <View
+              dataSet={{}}
+              isFocused={false}
+              style={
+                {
+                  "alignItems": "center",
+                  "borderColor": "#d4d4d4",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "flexDirection": "row",
+                  "overflow": "hidden",
+                }
+              }
+            >
+              <TextInput
+                accessibilityDescribedBy="field-4-feedback"
+                accessible={true}
+                dataSet={{}}
+                disabled={false}
+                editable={true}
+                isRequired={false}
+                nativeID="field-4-input"
+                onBlur={[Function]}
+                onChangeText={[Function]}
+                onFocus={[Function]}
+                onKeyPress={[Function]}
+                placeholder=""
+                placeholderTextColor="#a3a3a3"
+                readOnly={false}
+                required={false}
+                secureTextEntry={false}
+                style={
+                  {
+                    "backgroundColor": "transparent",
+                    "color": "#171717",
+                    "flex": 1,
+                    "fontFamily": undefined,
+                    "fontSize": 12,
+                    "fontStyle": "normal",
+                    "fontWeight": "400",
+                    "height": "100%",
+                    "paddingBottom": 8,
+                    "paddingLeft": 12,
+                    "paddingRight": 12,
+                    "paddingTop": 8,
+                    "width": "100%",
+                  }
+                }
+                testID="inputTitle"
+                value=""
+              />
+            </View>
+          </View>
+          <View
+            dataSet={{}}
+            style={
+              {
+                "height": 16,
+              }
+            }
+          />
+          <View
+            dataSet={{}}
+            isInvalid={false}
+            style={
+              {
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              dataSet={{}}
+              feedbackId="field-5-feedback"
+              hasFeedbackText={true}
+              hasHelpText={false}
+              helpTextId="field-5-helptext"
+              isDisabled={false}
+              isInvalid={false}
+              isReadOnly={false}
+              isRequired={false}
+              labelId="field-5-label"
+              nativeID="field-5-label"
+              setHasFeedbackText={[Function]}
+              setHasHelpText={[Function]}
+              style={
+                {
+                  "flexDirection": "row",
+                  "justifyContent": "flex-start",
+                  "marginBottom": 4,
+                  "marginTop": 4,
+                }
+              }
+            >
+              <Text
+                dataSet={{}}
+                style={
+                  {
+                    "backgroundColor": undefined,
+                    "color": "#737373",
+                    "fontFamily": undefined,
+                    "fontSize": 12,
+                    "fontStyle": "normal",
+                    "fontWeight": "500",
+                    "letterSpacing": 0,
+                    "lineHeight": 18,
+                    "textDecorationLine": undefined,
+                  }
+                }
+              >
+                Description
+              </Text>
+            </View>
+            <View
+              dataSet={{}}
+              isFocused={false}
+              style={
+                {
+                  "alignItems": "center",
+                  "borderColor": "#d4d4d4",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "flexDirection": "row",
+                  "height": 80,
+                  "overflow": "hidden",
+                }
+              }
+            >
+              <TextInput
+                accessibilityDescribedBy="field-5-feedback"
+                accessible={true}
+                dataSet={{}}
+                disabled={false}
+                editable={true}
+                isRequired={false}
+                multiline={true}
+                nativeID="field-5-input"
+                onBlur={[Function]}
+                onChangeText={[Function]}
+                onFocus={[Function]}
+                onKeyPress={[Function]}
+                placeholder=""
+                placeholderTextColor="#a3a3a3"
+                readOnly={false}
+                required={false}
+                secureTextEntry={false}
+                style={
+                  {
+                    "backgroundColor": "transparent",
+                    "color": "#171717",
+                    "flex": 1,
+                    "fontFamily": undefined,
+                    "fontSize": 12,
+                    "fontStyle": "normal",
+                    "fontWeight": "400",
+                    "height": "100%",
+                    "paddingBottom": 8,
+                    "paddingLeft": 12,
+                    "paddingRight": 12,
+                    "paddingTop": 8,
+                    "width": "100%",
+                  }
+                }
+                testID="inputDescription"
+                textAlignVertical="top"
+                value=""
+              />
+            </View>
+          </View>
+          <View
+            dataSet={{}}
+            style={
+              {
+                "height": 16,
+              }
+            }
+          />
+          <View
+            dataSet={{}}
+            style={
+              {
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              dataSet={{}}
+              feedbackId="field-3-feedback"
+              hasFeedbackText={false}
+              hasHelpText={false}
+              helpTextId="field-3-helptext"
+              isDisabled={false}
+              isInvalid={false}
+              isReadOnly={false}
+              isRequired={false}
+              labelId="field-3-label"
+              nativeID="field-3-label"
+              setHasFeedbackText={[Function]}
+              setHasHelpText={[Function]}
+              style={
+                {
+                  "flexDirection": "row",
+                  "justifyContent": "flex-start",
+                  "marginBottom": 4,
+                  "marginTop": 4,
+                }
+              }
+            >
+              <Text
+                dataSet={{}}
+                style={
+                  {
+                    "backgroundColor": undefined,
+                    "color": "#737373",
+                    "fontFamily": undefined,
+                    "fontSize": 12,
+                    "fontStyle": "normal",
+                    "fontWeight": "500",
+                    "letterSpacing": 0,
+                    "lineHeight": 18,
+                    "textDecorationLine": undefined,
+                  }
+                }
+              >
+                Priority
+              </Text>
+            </View>
+            <View
+              dataSet={{}}
+              style={
+                {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginTop": 8,
+                }
+              }
+            >
+              <View
+                accessibilityRole="button"
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                colorScheme="red"
+                dataSet={{}}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#fff",
+                    "borderColor": "#ef4444",
+                    "borderRadius": 9999,
+                    "color": "#ffc600",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "paddingBottom": 8,
+                    "paddingLeft": 12,
+                    "paddingRight": 12,
+                    "paddingTop": 8,
+                  }
+                }
+                testID="btnPriorityHigh"
+              >
+                <View
+                  dataSet={{}}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                    }
+                  }
+                  test={true}
+                >
+                  <Text
+                    allowFontScaling={false}
+                    dataSet={{}}
+                    selectable={false}
+                    style={
+                      [
+                        {
+                          "color": undefined,
+                          "fontSize": 12,
+                        },
+                        {
+                          "color": "#dc2626",
+                          "fontSize": 16,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "width": 16,
+                        },
+                        {
+                          "fontFamily": "Feather",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                  <View
+                    dataSet={{}}
+                    style={
+                      {
+                        "width": 6,
+                      }
+                    }
+                  />
+                  <View
+                    dataSet={{}}
+                    style={{}}
+                  >
+                    <Text
+                      dataSet={{}}
+                      style={
+                        {
+                          "backgroundColor": undefined,
+                          "color": "#dc2626",
+                          "fontFamily": undefined,
+                          "fontSize": 12,
+                          "fontStyle": "normal",
+                          "fontWeight": "400",
+                          "letterSpacing": 0,
+                          "lineHeight": 18,
+                          "textDecorationLine": undefined,
+                        }
+                      }
+                    >
+                      High
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                dataSet={{}}
+                style={
+                  {
+                    "width": 8,
+                  }
+                }
+              />
+              <View
+                accessibilityRole="button"
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                colorScheme="amber"
+                dataSet={{}}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#fff",
+                    "borderColor": "#f59e0b",
+                    "borderRadius": 9999,
+                    "color": "#ffc600",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "paddingBottom": 8,
+                    "paddingLeft": 12,
+                    "paddingRight": 12,
+                    "paddingTop": 8,
+                  }
+                }
+                testID="btnPriorityMedium"
+              >
+                <View
+                  dataSet={{}}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                    }
+                  }
+                  test={true}
+                >
+                  <Text
+                    allowFontScaling={false}
+                    dataSet={{}}
+                    selectable={false}
+                    style={
+                      [
+                        {
+                          "color": undefined,
+                          "fontSize": 12,
+                        },
+                        {
+                          "color": "#d97706",
+                          "fontSize": 16,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "width": 16,
+                        },
+                        {
+                          "fontFamily": "Feather",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                  <View
+                    dataSet={{}}
+                    style={
+                      {
+                        "width": 6,
+                      }
+                    }
+                  />
+                  <View
+                    dataSet={{}}
+                    style={{}}
+                  >
+                    <Text
+                      dataSet={{}}
+                      style={
+                        {
+                          "backgroundColor": undefined,
+                          "color": "#d97706",
+                          "fontFamily": undefined,
+                          "fontSize": 12,
+                          "fontStyle": "normal",
+                          "fontWeight": "400",
+                          "letterSpacing": 0,
+                          "lineHeight": 18,
+                          "textDecorationLine": undefined,
+                        }
+                      }
+                    >
+                      Medium
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                dataSet={{}}
+                style={
+                  {
+                    "width": 8,
+                  }
+                }
+              />
+              <View
+                accessibilityRole="button"
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                colorScheme="green"
+                dataSet={{}}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#fff",
+                    "borderColor": "#22c55e",
+                    "borderRadius": 9999,
+                    "color": "#ffc600",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "paddingBottom": 8,
+                    "paddingLeft": 12,
+                    "paddingRight": 12,
+                    "paddingTop": 8,
+                  }
+                }
+                testID="btnPriorityLow"
+              >
+                <View
+                  dataSet={{}}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                    }
+                  }
+                  test={true}
+                >
+                  <Text
+                    allowFontScaling={false}
+                    dataSet={{}}
+                    selectable={false}
+                    style={
+                      [
+                        {
+                          "color": undefined,
+                          "fontSize": 12,
+                        },
+                        {
+                          "color": "#16a34a",
+                          "fontSize": 16,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "width": 16,
+                        },
+                        {
+                          "fontFamily": "Feather",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                  <View
+                    dataSet={{}}
+                    style={
+                      {
+                        "width": 6,
+                      }
+                    }
+                  />
+                  <View
+                    dataSet={{}}
+                    style={{}}
+                  >
+                    <Text
+                      dataSet={{}}
+                      style={
+                        {
+                          "backgroundColor": undefined,
+                          "color": "#16a34a",
+                          "fontFamily": undefined,
+                          "fontSize": 12,
+                          "fontStyle": "normal",
+                          "fontWeight": "400",
+                          "letterSpacing": 0,
+                          "lineHeight": 18,
+                          "textDecorationLine": undefined,
+                        }
+                      }
+                    >
+                      Low
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                dataSet={{}}
+                style={
+                  {
+                    "width": 8,
+                  }
+                }
+              />
+              <View
+                accessibilityRole="button"
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                colorScheme="gray"
+                dataSet={{}}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#fff",
+                    "borderColor": "#71717a",
+                    "borderRadius": 9999,
+                    "borderWidth": 2,
+                    "color": "#ffc600",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "paddingBottom": 8,
+                    "paddingLeft": 12,
+                    "paddingRight": 12,
+                    "paddingTop": 8,
+                  }
+                }
+                testID="btnPriorityNone"
+              >
+                <View
+                  dataSet={{}}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                    }
+                  }
+                  test={true}
+                >
+                  <Text
+                    allowFontScaling={false}
+                    dataSet={{}}
+                    selectable={false}
+                    style={
+                      [
+                        {
+                          "color": undefined,
+                          "fontSize": 12,
+                        },
+                        {
+                          "color": "#52525b",
+                          "fontSize": 16,
+                          "height": 16,
+                          "lineHeight": 16,
+                          "width": 16,
+                        },
+                        {
+                          "fontFamily": "Feather",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                  <View
+                    dataSet={{}}
+                    style={
+                      {
+                        "width": 6,
+                      }
+                    }
+                  />
+                  <View
+                    dataSet={{}}
+                    style={{}}
+                  >
+                    <Text
+                      dataSet={{}}
+                      style={
+                        {
+                          "backgroundColor": undefined,
+                          "color": "#52525b",
+                          "fontFamily": undefined,
+                          "fontSize": 12,
+                          "fontStyle": "normal",
+                          "fontWeight": "400",
+                          "letterSpacing": 0,
+                          "lineHeight": 18,
+                          "textDecorationLine": undefined,
+                        }
+                      }
+                    >
+                      None
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            dataSet={{}}
+            style={
+              {
+                "height": 16,
+              }
+            }
+          />
+          <View
+            accessibilityRole="button"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            colorScheme="primary"
+            dataSet={{}}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#ffc600",
+                "borderRadius": 9999,
+                "color": "#fff",
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "marginTop": 32,
+                "paddingBottom": 10,
+                "paddingLeft": 12,
+                "paddingRight": 12,
+                "paddingTop": 10,
+              }
+            }
+            testID="btnSubmit"
+          >
+            <View
+              dataSet={{}}
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+              test={true}
+            >
+              <View
+                dataSet={{}}
+                style={{}}
+              >
+                <Text
+                  dataSet={{}}
+                  style={
+                    {
+                      "backgroundColor": undefined,
+                      "color": "#fafafa",
+                      "fontFamily": undefined,
+                      "fontSize": 14,
+                      "fontStyle": "normal",
+                      "fontWeight": "400",
+                      "letterSpacing": 0,
+                      "lineHeight": 21,
+                      "textDecorationLine": undefined,
+                    }
+                  }
+                >
+                  CREATE
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</RNCSafeAreaProvider>
+`;

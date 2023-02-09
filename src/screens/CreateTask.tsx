@@ -97,6 +97,7 @@ const CreateTask: FC = () => {
                   Title
                 </FormControl.Label>
                 <Input
+                  testID="inputTitle"
                   placeholder=""
                   onChangeText={handleChange('title')}
                   onBlur={handleBlur('title')}
@@ -115,6 +116,7 @@ const CreateTask: FC = () => {
                 </FormControl.Label>
                 {/* missing autoCompleteType - https://github.com/GeekyAnts/NativeBase/issues/5438 */}
                 <TextArea
+                  testID="inputDescription"
                   numberOfLines={4}
                   placeholder=""
                   onChangeText={handleChange('description')}
@@ -130,6 +132,7 @@ const CreateTask: FC = () => {
                 <FormControl>
                   <FormControl.Label>Status</FormControl.Label>
                   <Select
+                    testID="inputStatus"
                     accessibilityLabel="Choose Status"
                     placeholder="Choose Status"
                     selectedValue={values.status}
@@ -142,6 +145,7 @@ const CreateTask: FC = () => {
                     {StatusList.map(status => {
                       return (
                         <Select.Item
+                          key={status.value}
                           label={status.label}
                           value={status.value}
                         />
@@ -163,6 +167,7 @@ const CreateTask: FC = () => {
                     const selected = v.value === values.priority;
                     return (
                       <Button
+                        testID={`btnPriority${v.label}`}
                         key={v.value}
                         onPress={() => setFieldValue('priority', v.value)}
                         variant={selected ? 'outline' : 'ghost'}
@@ -178,6 +183,7 @@ const CreateTask: FC = () => {
                 </HStack>
               </FormControl>
               <Button
+                testID="btnSubmit"
                 mt={'8'}
                 isLoading={isLoading}
                 isDisabled={!isValid}

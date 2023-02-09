@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoListItem renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    dataSet={{}}
+    style={
+      {
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 8,
+        "elevation": 2,
+        "marginBottom": 8,
+        "marginLeft": 4,
+        "marginRight": 4,
+        "marginTop": 8,
+        "paddingBottom": 8,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 8,
+        "shadowColor": "#000000",
+        "shadowOffset": {
+          "height": 1,
+          "width": 0,
+        },
+        "shadowOpacity": 0.2,
+        "shadowRadius": 1.41,
+      }
+    }
+  >
+    <View
+      dataSet={{}}
+      style={{}}
+    >
+      <View
+        dataSet={{}}
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          dataSet={{}}
+          style={
+            {
+              "flex": 1,
+            }
+          }
+        >
+          <View
+            dataSet={{}}
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              dataSet={{}}
+              numberOfLines={1}
+              style={
+                {
+                  "backgroundColor": undefined,
+                  "color": "#171717",
+                  "fontFamily": undefined,
+                  "fontSize": 16,
+                  "fontStyle": "normal",
+                  "fontWeight": "700",
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                  "textDecorationLine": undefined,
+                }
+              }
+            >
+              Test
+            </Text>
+            <View
+              dataSet={{}}
+              style={
+                {
+                  "width": 8,
+                }
+              }
+            />
+            <Text
+              allowFontScaling={false}
+              dataSet={{}}
+              selectable={false}
+              style={
+                [
+                  {
+                    "color": undefined,
+                    "fontSize": 12,
+                  },
+                  {
+                    "color": "#ef4444",
+                    "fontSize": 16,
+                    "height": 16,
+                    "lineHeight": 16,
+                    "width": 16,
+                  },
+                  {
+                    "fontFamily": "Feather",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View
+            dataSet={{}}
+            style={{}}
+          />
+          <Text
+            dataSet={{}}
+            numberOfLines={2}
+            style={
+              {
+                "backgroundColor": undefined,
+                "color": "#a1a1aa",
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontStyle": "normal",
+                "fontWeight": "400",
+                "letterSpacing": 0,
+                "lineHeight": 21,
+                "textDecorationLine": undefined,
+              }
+            }
+          >
+            Test Description
+          </Text>
+        </View>
+        <View
+          dataSet={{}}
+          style={
+            {
+              "width": 16,
+            }
+          }
+        />
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          aria-haspopup="menu"
+          collapsable={false}
+          dataSet={{}}
+          focusable={true}
+          nativeID="1"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDownCapture={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={{}}
+          testID="btnTLIActions"
+        >
+          <Text
+            allowFontScaling={false}
+            dataSet={{}}
+            selectable={false}
+            style={
+              [
+                {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                {
+                  "color": "#737373",
+                  "fontSize": 16,
+                  "height": 16,
+                  "lineHeight": 16,
+                  "width": 16,
+                },
+                {
+                  "fontFamily": "Feather",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

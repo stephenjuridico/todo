@@ -5,6 +5,7 @@ import React, {
   useCallback,
   useContext,
   useEffect,
+  useMemo,
   useState,
 } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -17,33 +18,35 @@ import * as R from 'ramda';
 
 const TodoContext = createContext<TodoContextType | null>(null);
 
-export const TodoProvider: FC<{children: ReactNode}> = ({children}) => {
-  const todoProvider = useTodoProvider();
-  return (
-    <TodoContext.Provider value={todoProvider}>{children}</TodoContext.Provider>
-  );
+export const TodoProvider: FC<{
+  children: ReactNode;
+  value: TodoContextType;
+}> = ({children, value}) => {
+  return <TodoContext.Provider value={value}>{children}</TodoContext.Provider>;
 };
 
 export const useTodo = () => {
   return useContext(TodoContext) as TodoContextType;
 };
 
-const initialMappedValue: MappedTodoType = {
+export const initialMappedValue: MappedTodoType = {
   all: {count: 0, items: []},
   [Status.Pending]: {count: 0, items: []},
   [Status.Completed]: {count: 0, items: []},
   [Status.Archived]: {count: 0, items: []},
 };
 
-const useTodoProvider = () => {
+export const initialFiltersValue: IFilters = {
+  status: 'all',
+  priority: SortBy.DESC,
+  name: SortBy.ASC,
+};
+
+export const useTodoProvider = () => {
   const [todo, setTodo] = useState<ITodo[]>([]);
   const [mapped, setMapped] = useState<MappedTodoType>(initialMappedValue);
   const [isLoading, setIsLoading] = useState<boolean>(false);
-  const [filters, setFilters] = useState<IFilters>({
-    status: 'all',
-    priority: SortBy.DESC,
-    name: SortBy.ASC,
-  });
+  const [filters, setFilters] = useState<IFilters>(initialFiltersValue);
 
   const saveData = useCallback(async () => {
     try {
@@ -51,7 +54,7 @@ const useTodoProvider = () => {
       await AsyncStorage.setItem('todo', JSON.stringify(todo));
       setIsLoading(false);
     } catch (error) {
-      console.log('saveData:Error', error);
+      // console.log('saveData:Error', error);
       setIsLoading(false);
     }
   }, [todo]);
@@ -84,12 +87,12 @@ const useTodoProvider = () => {
         setIsLoading(true);
         const savedTodo = await AsyncStorage.getItem('todo');
         if (savedTodo) {
-          console.log('parse', JSON.parse(savedTodo));
+          // console.log('parse', JSON.parse(savedTodo));
           setTodo(JSON.parse(savedTodo));
         }
         setIsLoading(false);
       } catch (error) {
-        console.log('fetchData', error);
+        // console.log('fetchData', error);
         setIsLoading(false);
       }
     };
@@ -115,7 +118,7 @@ const useTodoProvider = () => {
   };
 
   const createTodo = async (payload: ITodo) => {
-    console.log('Create Todo', payload);
+    // console.log('Create Todo', payload);
     try {
       setIsLoading(true);
       payload.createdAt = moment().format('LLL');
@@ -180,7 +183,7 @@ const useTodoProvider = () => {
     }
   };
 
-  console.log('Filters', filters);
+  // console.log('Filters', filters);
 
   return {
     data: data(),

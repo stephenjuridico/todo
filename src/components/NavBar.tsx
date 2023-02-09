@@ -1,5 +1,5 @@
 import React from 'react';
-import {HStack, Heading, IconButton} from 'native-base';
+import {HStack, IconButton} from 'native-base';
 import Feather from 'react-native-vector-icons/Feather';
 import {useNavigation} from '@react-navigation/native';
 
@@ -8,6 +8,7 @@ const NavBar = () => {
   return (
     <HStack alignItems="center" alignContent="center">
       <IconButton
+        testID="btnGoBack"
         onPress={() => navigation.goBack()}
         borderRadius={'full'}
         _icon={{
